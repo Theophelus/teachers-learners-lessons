@@ -2,7 +2,7 @@ public class Person {
 
     private String firstName, lastName, email;
 
-    Person(String firstName, String lastName, String email){
+    public Person(String firstName, String lastName, String email){
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
