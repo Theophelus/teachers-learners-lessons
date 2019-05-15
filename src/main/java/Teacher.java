@@ -23,7 +23,13 @@ public class Teacher extends Person {
     }
 
     /*
-    Define a method that will be able to check:
+    Define a method that will get the size of added subjects:
      */
+    public Integer getAddedTeacherQualifications(){
+        return containTeacherQualification.size();
+    }
 
+    /*
+    define a method that will give control of subjects that are already in the list
+     */
 }
