@@ -1,3 +1,5 @@
+package teachers;
+
 public class Person {
 
     private String firstName, lastName, email;

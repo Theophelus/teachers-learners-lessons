@@ -1,3 +1,5 @@
+package teachers;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,21 +23,22 @@ public class Teacher extends Person {
     }
 
     /*
-    Define a method that will check if subjects that a specific teacher teaches are >= 1
+    // A teacher teach 1-more subjects
+    Define a method called teachLessons that take subjects as parameter.
+        * first check if subjects are there
+        * that will check if subjects that a specific teacher teaches are >= 1
         * if then that teacher can teach
      */
+    public String teachLessons(Subjects subjects){
 
-
+        return "";
+    }
     /*
     Define a method that will get the size of added subjects:
      */
-    public Integer getAddedTeacherQualifications(){
+    public Integer getQualificationCount(){
         return containTeacherQualification.size();
     }
-
-    /*
-    define a method that will give control of subjects that are already in the list
-     */
 
     /*
     define a method that will return all subjects a specific teacher teaches
@@ -50,5 +53,9 @@ public class Teacher extends Person {
             builder.append(String.format("\t %s\n", subs));
         }
         return builder.toString();
+    }
+
+    public boolean canTeachSubject(Subjects subject) {
+        return containTeacherQualification.contains(subject);
     }
 }

@@ -1,29 +1,42 @@
 import org.junit.jupiter.api.Test;
+import teachers.Subjects;
+import teachers.Teacher;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TeacherTests {
 
+    Teacher teacher;
 
     @Test
     public void shouldBeAbleToGetRegisteredTeacher(){
-        Teacher teacher = new Teacher("Allan","Ikombe", "allanikombe@gmail.com");
+        teacher = new Teacher("Allan","Ikombe", "allanikombe@gmail.com");
         assertEquals("Allan Ikombe allanikombe@gmail.com", teacher.getFirstName() + " " + teacher.getLastName() + " " + teacher.getEmail());
     }
     @Test
     public void shouldBeAbleToCheckHowManySubjectsATeacherTeach(){
-        Teacher teacher = new Teacher("Allan","Ikombe", "allanikombe@gmail.com");
+        teacher = new Teacher("Allan","Ikombe", "allanikombe@gmail.com");
         teacher.addTeacherQualification(Subjects.maths);
-        assertEquals(1,teacher.getAddedTeacherQualifications());
+        // teacher.getQualificationCount()
+        assertEquals(1, teacher.getQualificationCount());
     }
 
     @Test
-    public void shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach(){
-        Teacher teacher = new Teacher("Allan","Ikombe", "allanikombe@gmail.com");
+    public void shouldBeAble3ToGetAllSubjectASpecificTeacherCanTeach(){
+        teacher = new Teacher("Allan","Ikombe", "allanikombe@gmail.com");
         teacher.addTeacherQualification(Subjects.maths);
         teacher.addTeacherQualification(Subjects.isixhosa);
         String expected = "SPECIFIC SUBJECTS A TEACHER QUALIFIED TO TEACH: \n" +
                 "\t maths\n"+
                 "\t isixhosa\n";
         assertEquals(expected, teacher.getTeacherSubjects());
+    }
+
+    @Test
+    public void teacherShouldBeAbleToTeachIfSubjectIsGreaterThanOrEqualsToOne(){
+        teacher = new Teacher("Allan","Ikombe", "allanikombe@gmail.com");
+        teacher.addTeacherQualification(Subjects.maths);
+        assertEquals(true, teacher.canTeachSubject(Subjects.maths));
+        assertEquals(false, teacher.canTeachSubject(Subjects.isixhosa));
     }
 }
