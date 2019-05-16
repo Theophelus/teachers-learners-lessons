@@ -23,6 +23,10 @@ public class Teacher extends Person {
     }
 
     /*
+
+     */
+
+    /*
     Define a method that will get the size of added subjects:
      */
     public Integer getAddedTeacherQualifications(){
