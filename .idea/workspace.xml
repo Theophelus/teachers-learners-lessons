@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5f25c42-212a-431c-ad4e-356fb570f192" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TeacherTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TeacherTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Teacher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="229">
+              <caret line="49" column="47" lean-forward="true" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TeacherTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state relative-caret-position="331">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="191">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -73,8 +74,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Subjects.java" />
         <option value="$PROJECT_DIR$/src/main/java/Teachers.java" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/Teacher.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Teacher.java" />
         <option value="$PROJECT_DIR$/src/test/java/TeacherTests.java" />
       </list>
     </option>
@@ -186,12 +187,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TeacherTests.shouldBeAbleToCheckHowManySubjectsATeacherTeach">
+  <component name="RunManager" selected="JUnit.TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach">
     <configuration name="TeacherTests.shouldBeAbleToCheckHowManySubjectsATeacherTeach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="teachers-learners-lessons" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TeacherTests" />
       <option name="METHOD_NAME" value="shouldBeAbleToCheckHowManySubjectsATeacherTeach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="teachers-learners-lessons" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TeacherTests" />
+      <option name="METHOD_NAME" value="shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -209,6 +220,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" />
         <item itemvalue="JUnit.TeacherTests.shouldBeAbleToCheckHowManySubjectsATeacherTeach" />
         <item itemvalue="JUnit.TeacherTests.shouldBeAbleToGetRegisteredTeacher" />
       </list>
@@ -228,14 +240,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TeacherTests_shouldBeAbleToGetRegisteredTeacher - 2019.05.16 at 10h 53m 46s.xml">
-      <configuration name="TeacherTests.shouldBeAbleToGetRegisteredTeacher" configurationId="JUnit" />
+    <history-entry file="TeacherTests_shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach - 2019.05.16 at 12h 18m 55s.xml">
+      <configuration name="TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeacherTests_shouldBeAbleToCheckHowManySubjectsATeacherTeach - 2019.05.16 at 11h 13m 42s.xml">
+    <history-entry file="TeacherTests_shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach - 2019.05.16 at 12h 19m 39s.xml">
+      <configuration name="TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTests_shouldBeAbleToCheckHowManySubjectsATeacherTeach - 2019.05.16 at 12h 28m 10s.xml">
       <configuration name="TeacherTests.shouldBeAbleToCheckHowManySubjectsATeacherTeach" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TeacherTests_shouldBeAbleToCheckHowManySubjectsATeacherTeach - 2019.05.16 at 11h 14m 48s.xml">
-      <configuration name="TeacherTests.shouldBeAbleToCheckHowManySubjectsATeacherTeach" configurationId="JUnit" />
+    <history-entry file="TeacherTests_shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach - 2019.05.16 at 12h 28m 58s.xml">
+      <configuration name="TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTests_shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach - 2019.05.16 at 12h 30m 53s.xml">
+      <configuration name="TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTests_shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach - 2019.05.16 at 12h 31m 35s.xml">
+      <configuration name="TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTests_shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach - 2019.05.16 at 12h 31m 53s.xml">
+      <configuration name="TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTests_shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach - 2019.05.16 at 12h 32m 57s.xml">
+      <configuration name="TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTests_shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach - 2019.05.16 at 12h 34m 19s.xml">
+      <configuration name="TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TeacherTests_shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach - 2019.05.16 at 12h 34m 41s.xml">
+      <configuration name="TeacherTests.shouldBeAbleToGetAllSubjectASpecificTeacherCanTeach" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -254,7 +287,7 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.14980079" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.2932271" />
       <window_info id="Project Explorer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Job Explorer" order="6" />
@@ -264,13 +297,13 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.08395802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28035983" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298351" />
       <window_info anchor="bottom" id="Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4996016" weight="0.9550225" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4996016" weight="0.22188905" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003984" side_tool="true" weight="0.3268366" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.65067464" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -302,27 +335,27 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/teacher-learner-lessons/TeaccherTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/teacher-learner-lesson/Learner.kt" />
     <entry file="file://$PROJECT_DIR$/readme.md" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="229">
+          <caret line="49" column="47" lean-forward="true" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TeacherTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        <state relative-caret-position="331">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

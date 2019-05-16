@@ -1,7 +1,5 @@
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map.*;
 
 public class Teacher extends Person {
     //define a and arrayList
@@ -23,8 +21,10 @@ public class Teacher extends Person {
     }
 
     /*
-
+    Define a method that will check if subjects that a specific teacher teaches are >= 1
+        * if then that teacher can teach
      */
+
 
     /*
     Define a method that will get the size of added subjects:
@@ -36,4 +36,19 @@ public class Teacher extends Person {
     /*
     define a method that will give control of subjects that are already in the list
      */
+
+    /*
+    define a method that will return all subjects a specific teacher teaches
+     */
+
+    public String getTeacherSubjects(){
+
+        StringBuilder builder = new StringBuilder("SPECIFIC SUBJECTS A TEACHER QUALIFIED TO TEACH: \n");
+        List<Subjects> subjects = containTeacherQualification;
+
+        for(Subjects subs: subjects){
+            builder.append(String.format("\t %s\n", subs));
+        }
+        return builder.toString();
+    }
 }

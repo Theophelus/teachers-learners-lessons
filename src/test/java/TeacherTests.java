@@ -13,7 +13,6 @@ public class TeacherTests {
     public void shouldBeAbleToCheckHowManySubjectsATeacherTeach(){
         Teacher teacher = new Teacher("Allan","Ikombe", "allanikombe@gmail.com");
         teacher.addTeacherQualification(Subjects.maths);
-        teacher.addTeacherQualification(Subjects.english);
         assertEquals(1,teacher.getAddedTeacherQualifications());
     }
 
@@ -22,6 +21,9 @@ public class TeacherTests {
         Teacher teacher = new Teacher("Allan","Ikombe", "allanikombe@gmail.com");
         teacher.addTeacherQualification(Subjects.maths);
         teacher.addTeacherQualification(Subjects.isixhosa);
-//        assertEquals("",teacher.);
+        String expected = "SPECIFIC SUBJECTS A TEACHER QUALIFIED TO TEACH: \n" +
+                "\t maths\n"+
+                "\t isixhosa\n";
+        assertEquals(expected, teacher.getTeacherSubjects());
     }
 }
