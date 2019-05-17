@@ -30,8 +30,10 @@ public class Teacher extends Person {
         * if then that teacher can teach
      */
     public String teachLessons(Subjects subjects){
-
-        return "";
+        if (!containTeacherQualification.isEmpty() && getQualificationCount() >= 1) {
+            canTeachSubject(subjects);
+        }
+        return "You don't qualifiy to teach this subject";
     }
     /*
     Define a method that will get the size of added subjects:
