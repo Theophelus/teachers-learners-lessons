@@ -21,7 +21,6 @@ public class Teacher extends Person {
     {
         if (!containTeacherQualification.contains(subjects)) containTeacherQualification.add(subjects);
     }
-
     /*
     // A teacher teach 1-more subjects
     Define a method called teachLessons that take subjects as parameter.
@@ -41,11 +40,9 @@ public class Teacher extends Person {
     public Integer getQualificationCount(){
         return containTeacherQualification.size();
     }
-
     /*
     define a method that will return all subjects a specific teacher teaches
      */
-
     public String getTeacherSubjects(){
 
         StringBuilder builder = new StringBuilder("SPECIFIC SUBJECTS A TEACHER QUALIFIED TO TEACH: \n");
