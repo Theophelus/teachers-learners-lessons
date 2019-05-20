@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
-import teachers.Learner;
-import teachers.Subjects;
+import schoolSystem.Learner;
+import schoolSystem.Subjects;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
