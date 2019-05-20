@@ -8,7 +8,7 @@ public class LearnerTests {
     Learner learner;
     @Test
     public void shouldBeAbleToGetRegisteredStudent(){
-        Learner learner = new Learner("","","");
+        Learner learner = new Learner("Nannie","Class","nannieclass@gmail.com");
         assertEquals("", learner.getFirstName() + " " + learner.getLastName() + " " + learner.getEmail());
     }
 
@@ -27,8 +27,14 @@ public class LearnerTests {
         learner.addStudentSubjects(Subjects.english);
         learner.addStudentSubjects(Subjects.maths);
         learner.addStudentSubjects(Subjects.isixhosa);
-        assertEquals("Learn can attend class", learner.attendLesson(Subjects.english));
-
+        assertEquals(true, learner.attendLesson(Subjects.english));
     }
 
+    @Test
+    public void shouldFailIIfSubjectsAreLessThanThree(){
+        Learner learner = new Learner("Nannie","Class","nannieclass@gmail.com");
+        learner.addStudentSubjects(Subjects.english);
+        learner.addStudentSubjects(Subjects.maths);
+        assertEquals(false, learner.attendLesson(Subjects.english));
+    }
 }

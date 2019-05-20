@@ -21,19 +21,7 @@ public class Teacher extends Person {
     {
         if (!containTeacherQualification.contains(subjects)) containTeacherQualification.add(subjects);
     }
-    /*
-    // A teacher teach 1-more subjects
-    Define a method called teachLessons that take subjects as parameter.
-        * first check if subjects are there
-        * that will check if subjects that a specific teacher teaches are >= 1
-        * if then that teacher can teach
-     */
-    public String teachLessons(Subjects subjects){
-        if (!containTeacherQualification.isEmpty() && getQualificationCount() >= 1) {
-            canTeachSubject(subjects);
-        }
-        return "You don't qualifiy to teach this subject";
-    }
+
     /*
     Define a method that will get the size of added subjects:
      */
@@ -53,7 +41,13 @@ public class Teacher extends Person {
         }
         return builder.toString();
     }
-
+    /*
+        // A teacher teach 1-more subjects
+        Define a method called teachLessons that take subjects as parameter.
+            * first check if subjects are there
+            * that will check if subjects that a specific teacher teaches are >= 1
+            * if then that teacher can teach
+    */
     public boolean canTeachSubject(Subjects subject) {
         return containTeacherQualification.contains(subject);
     }

@@ -39,13 +39,7 @@ public class TeacherTests {
         assertEquals(true, teacher.canTeachSubject(Subjects.maths));
         assertEquals(false, teacher.canTeachSubject(Subjects.isixhosa));
     }
-    @Test
-    public void teacherShouldBeAbleToTeachATeacherTeachOneMoreSubjects(){
-        teacher = new Teacher("Allan","Ikombe", "allanikombe@gmail.com");
-//        teacher.addTeacherQualification(Subjects.maths);
-//        teacher.addTeacherQualification(Subjects.english);
-        assertEquals("", teacher.teachLessons(Subjects.maths));
-    }
+
 }
 
 

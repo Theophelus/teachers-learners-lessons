@@ -20,10 +20,10 @@ public class Learner extends Person{
     Define a method that will allow students to attend Lesson.
         * if registered subjects for learners are less than 3 then learners doesn't qualify to attend lesson
      */
-    public  String attendLesson(Subjects subjects){
-        if (learnerSubjects.contains(subjects) && getRegisteredSubjectsLength() >= 3)
-        return "Learn can attend class";
-        else return  "Your Subjects Are less Than Three";
+    public  boolean attendLesson(Subjects subjects){
+        return learnerSubjects.contains(subjects) && getRegisteredSubjectsLength() >= 3;
+//        return "Learn can attend class";
+//        else return  "Your Subjects Are less Than Three";
     }
     /*
     Define a method that will get all subjects that a particular student registered for
